@@ -1,0 +1,93 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Message" : {
+      "id" : "http://wso2jsonschema.org/Factures",
+      "type" : "object",
+      "properties" : {
+        "data" : {
+          "id" : "http://wso2jsonschema.org/Factures/data",
+          "type" : "object",
+          "properties" : {
+            "field" : {
+              "id" : "http://wso2jsonschema.org/Factures/data/field",
+              "type" : "object",
+              "properties" : {
+                "MTI" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/MTI",
+                  "type" : "string"
+                },
+                "Phone_number_eme" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/phone_number_eme",
+                  "type" : "string"
+                },
+                "Phone_number_rec" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/phone_number_rec",
+                  "type" : "string"
+                },
+                "Fidelio_code" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/fidelio_code",
+                  "type" : "string"
+                },
+                "Transmission_date" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/transmission_date",
+                  "type" : "string"
+                },
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/canal",
+                  "type" : "string"
+                },
+                "Stan" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/Stan",
+                  "type" : "string"
+                },
+                "Rrn" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/Rrn",
+                  "type" : "string"
+                },
+                "AddUsrIdentif" : {
+                  "id" : "http://wso2jsonschema.org/Factures/data/field/AddUsrIdentif",
+                  "type" : "object",
+                  "properties" : {
+                    "ProviderLogin" : {
+                      "id" : "http://wso2jsonschema.org/Factures/data/field/AddUsrIdentif/ProviderLogin",
+                      "type" : "string"
+                    },
+                    "ProviderPassword" : {
+                      "id" : "http://wso2jsonschema.org/Factures/data/field/AddUsrIdentif/ProviderPassword",
+                      "type" : "string"
+                    },
+                    "Products" : {
+                      "id" : "http://wso2jsonschema.org/Factures/data/field/AddUsrIdentif/Products",
+                      "type" : "string"
+                    },
+                    "UserId" : {
+                      "id" : "http://wso2jsonschema.org/Factures/data/field/AddUsrIdentif/UserId",
+                      "type" : "string"
+                    },
+                    "RequestDate" : {
+                      "id" : "http://wso2jsonschema.org/Factures/data/field/AddUsrIdentif/RequestDate",
+                      "type" : "string"
+                    },
+                    "UserLanguage" : {
+                      "id" : "http://wso2jsonschema.org/Factures/data/field/AddUsrIdentif/UserLanguage",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "RqUID" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

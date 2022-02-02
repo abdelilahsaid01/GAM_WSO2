@@ -1,0 +1,46 @@
+map_S_payinvoicesResponse_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.Factures =  {};
+outputroot.Factures.data =  {};
+outputroot.Factures.data.field =  {};
+outputroot.Factures.data.field.KeyValues =  {};
+outputroot.Factures.data.field.KeyValues.Key = inputns2_payinvoicesResponse.return.KeyValues.Data;
+outputroot.Factures.data.field.KeyValues.Data = inputns2_payinvoicesResponse.return.KeyValues.Key;
+outputroot.Factures.data.field.KeyValues.Type = inputns2_payinvoicesResponse.return.KeyValues.Type;
+outputroot.Factures.data.field.RqUID = inputns2_payinvoicesResponse.return.RqUID;
+outputroot.Factures.data.field.ResultId = inputns2_payinvoicesResponse.return.ResultId;
+outputroot.Factures.data.field.ErrorCode = inputns2_payinvoicesResponse.return.ErrorCode;
+outputroot.Factures.data.field.ErrorDesc = inputns2_payinvoicesResponse.return.ErrorDesc;
+outputroot.Factures.data.field.AuthorisationNbr = inputns2_payinvoicesResponse.return.AuthorisationNbr;
+outputroot.Factures.data.field.SettlmentDate = inputns2_payinvoicesResponse.return.SettlmentDate;
+outputroot.Factures.data.field.PayList =  {};
+outputroot.Factures.data.field.PayList.KeyValues =  {};
+outputroot.Factures.data.field.PayList.KeyValues.Key = inputns2_payinvoicesResponse.return.PayList.KeyValues.Key;
+outputroot.Factures.data.field.PayList.KeyValues.Data = inputns2_payinvoicesResponse.return.PayList.KeyValues.Data;
+outputroot.Factures.data.field.PayList.KeyValues.Type = inputns2_payinvoicesResponse.return.PayList.KeyValues.Type;
+outputroot.Factures.data.field.PayList.Caxact = inputns2_payinvoicesResponse.return.PayList.Caxact;
+outputroot.Factures.data.field.PayList.Payinamt = inputns2_payinvoicesResponse.return.PayList.Payinamt;
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

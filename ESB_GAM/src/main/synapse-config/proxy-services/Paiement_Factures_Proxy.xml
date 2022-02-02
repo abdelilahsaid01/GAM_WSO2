@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="Paiement_Factures_Proxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <property expression="json-eval($)" name="REQUEST_JSON_PAYLOAD" scope="default" type="STRING"/>
+            <property expression="json-eval($.Factures.data.field.Stan)" name="Stan" scope="default" type="STRING"/>
+            <property expression="json-eval($.Factures.data.field.Rrn)" name="Rrn" scope="default" type="STRING"/>
+            <sequence key="JsonToSoap_Paiement_Factures"/>
+            <log level="custom">
+                <property expression="$body/*" name="Paiement de Facture Proxy: Sending Request To IAM Server"/>
+            </log>
+            <send>
+                <endpoint key="Simulator_Endpoint"/>
+                <!--                 <endpoint key="IAM_TEST_PayInvoices_Endpoint"/> -->
+            </send>
+        </inSequence>
+        <outSequence>
+            <log level="custom">
+                <property expression="$body/*" name="Paiement de Facture Proxy: Response received from IAM Server"/>
+            </log>
+            <sequence key="SoapToJson_Paiement_Factures"/>
+            <send/>
+        </outSequence>
+        <faultSequence>
+            <log level="custom">
+                <property name="MTI" value="Paiement de Facture Proxy: Fault_Sequence"/>
+            </log>
+            <sequence key="FaultSequence_Res"/>
+            <respond/>
+        </faultSequence>
+    </target>
+</proxy>

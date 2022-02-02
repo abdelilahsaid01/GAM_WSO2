@@ -1,0 +1,27 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "ns2:getFacturesResponse",
+  "type" : "object",
+  "properties" : {
+    "return" : {
+      "id" : "http://wso2jsonschema.org/return",
+      "type" : "object",
+      "properties" : {
+        "field72Iso" : {
+          "id" : "http://wso2jsonschema.org/return/field72Iso",
+          "type" : "string"
+        },
+        "authorisationNbr" : {
+          "id" : "http://wso2jsonschema.org/return/authorisationNbr",
+          "type" : "string"
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "ns2",
+    "url" : "http://service/"
+  } ]
+}

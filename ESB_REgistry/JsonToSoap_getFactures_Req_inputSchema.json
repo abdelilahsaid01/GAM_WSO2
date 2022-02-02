@@ -1,0 +1,140 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Factures" : {
+      "id" : "http://wso2jsonschema.org/ISOMessage",
+      "type" : "object",
+      "properties" : {
+        "data" : {
+          "id" : "http://wso2jsonschema.org/ISOMessage/data",
+          "type" : "object",
+          "properties" : {
+            "field" : {
+              "id" : "http://wso2jsonschema.org/ISOMessage/data/field",
+              "type" : "object",
+              "properties" : {
+                "MTI" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field0",
+                  "type" : "string"
+                },
+                "TransmissionDate" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field7",
+                  "type" : "string"
+                },
+                "Stan" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field11",
+                  "type" : "string"
+                },
+                "FonctionCode" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field24",
+                  "type" : "string"
+                },
+                "AquirerId" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field32",
+                  "type" : "string"
+                },
+                "Rrn" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field37",
+                  "type" : "string"
+                },
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field42",
+                  "type" : "string"
+                },
+                "Id_Client" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field48",
+                  "type" : "string",
+                  "nullable" : "true"
+                },
+                "BillType" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field53",
+                  "type" : "string"
+                },
+                "TransactionDate" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field56",
+                  "type" : "string"
+                },
+                "Type_Id" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field94",
+                  "type" : "number",
+                  "nullable" : "true"
+                },
+                "PhoneNumber" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "AddUsrIdentif" : {
+                  "id" : "",
+                  "type" : "object",
+                  "properties" : {
+                    "ProviderLogin" : {
+                      "id" : "null/0",
+                      "type" : "string"
+                    },
+                    "ProviderPassword" : {
+                      "id" : "null/0",
+                      "type" : "string"
+                    },
+                    "Products" : {
+                      "id" : "null/0",
+                      "type" : "string"
+                    },
+                    "UserId" : {
+                      "id" : "null/0",
+                      "type" : "string"
+                    },
+                    "RequestDate" : {
+                      "id" : "null/0",
+                      "type" : "string",
+                      "nullable" : "true"
+                    },
+                    "UserLanguage" : {
+                      "id" : "null/0",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "RqUID" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "Acceptor_bank_code" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "Canal_type" : {
+                  "id" : "null/0",
+                  "type" : "string",
+                  "nullable" : "true"
+                },
+                "Terminal_id" : {
+                  "id" : "null/0",
+                  "type" : "string",
+                  "nullable" : "true"
+                },
+                "Outlet" : {
+                  "id" : "null/0",
+                  "type" : "string",
+                  "nullable" : "true"
+                },
+                "Location" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "FidelioCode" : {
+                  "id" : "null/0",
+                  "type" : "string",
+                  "nullable" : "true"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

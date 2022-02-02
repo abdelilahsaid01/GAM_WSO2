@@ -1,0 +1,36 @@
+map_S_isrechargeactivatedResponse_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.Message =  {};
+outputroot.Message.data =  {};
+outputroot.Message.data.field =  {};
+outputroot.Message.data.field.KeyValues =  {};
+if( (inputv1_isrechargeactivatedResponse.return.KeyValues) ){
+outputroot.Message.data.field.KeyValues.Key = inputv1_isrechargeactivatedResponse.return.KeyValues.Key;
+}
+if( (inputv1_isrechargeactivatedResponse.return.KeyValues) ){
+outputroot.Message.data.field.KeyValues.Data = inputv1_isrechargeactivatedResponse.return.KeyValues.Data;
+}
+if( (inputv1_isrechargeactivatedResponse.return.KeyValues) ){
+outputroot.Message.data.field.KeyValues.Type = inputv1_isrechargeactivatedResponse.return.KeyValues.type;
+}
+outputroot.Message.data.field.RqUID = inputv1_isrechargeactivatedResponse.return.RqUID;
+outputroot.Message.data.field.ResultId = inputv1_isrechargeactivatedResponse.return.ResultId;
+outputroot.Message.data.field.ErrorCode = inputv1_isrechargeactivatedResponse.return.ErrorCode;
+outputroot.Message.data.field.ErrorDesc = inputv1_isrechargeactivatedResponse.return.ErrorDesc;
+outputroot.Message.data.field.ResponseCode = inputv1_isrechargeactivatedResponse.return.ResponseCode;
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="JsonToSoap_Paiement_Factures" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <!--     <datamapper config="gov:datamapper/JsonToSoap_Seq_Conf.dmc" inputSchema="gov:datamapper/JsonToSoap_Seq_Conf_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonToSoap_Seq_Conf_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/JsonToSoap_Seq_Conf_xsltStyleSheet.xml"/> -->
+    <property expression="fn:substring-after(get-property('MessageID'),'uuid:')" name="uuid" scope="default" type="STRING"/>
+    <property expression="fn:concat('{','RqUID:',get-property('uuid'),'}')" name="id" scope="default" type="STRING"/>
+    <enrich>
+        <source clone="true" property="id" type="property"/>
+        <target action="child" xpath="json-eval(Factures.data.field)"/>
+    </enrich>
+    <datamapper config="gov:datamapper/JsonToSoap_confirmFacures_Req.dmc" inputSchema="gov:datamapper/JsonToSoap_confirmFacures_Req_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonToSoap_confirmFacures_Req_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/JsonToSoap_confirmFacures_Req_xsltStyleSheet.xml"/>
+    <log level="custom">
+        <property name="Paiement de Facture Proxy" value="Transformation JsonToSoap successfully"/>
+    </log>
+</sequence>

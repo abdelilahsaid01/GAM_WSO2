@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="ConnecteurMonitoring" startOnLoad="true" transports="jms" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <!--             <property name="transport.jms.ContentTypeProperty" scope="axis2" type="STRING" value="ContentType"/> -->
+            <!--             <property expression="//Message/Config/FlowTransactionID/text()" name="FlowTransactionID" scope="default" type="STRING"/> -->
+            <!--             <property expression="//Message/Config/FlowID/text()" name="FlowID" scope="default" type="STRING"/> -->
+            <!--             <property expression="//Message/Config/ServiceConsumer/text()" name="ServiceConsumer" scope="default" type="STRING"/> -->
+            <!--             <property expression="//Message/Config/HalfFlowTime/text()" name="HalfFlowTime" scope="default" type="STRING"/> -->
+            <!--             <property expression="//Message/Config/HalfFlowID/text()" name="HalfFlowID" scope="default" type="STRING"/> -->
+            <!--             <property expression="//Message/Config/HalfFlowTransactionID/text()" name="HalfFlowTransactionID" scope="default" type="STRING"/> -->
+            <!--             <property expression="$body/Message/Payload/text()" name="PAYLOAD" scope="default" type="STRING"/> -->
+            <!--             <log level="custom"> -->
+            <!--                 <property name="Connecteur Monitoring" value="Logging to Database"/> -->
+            <!--                 <property expression="get-property('FlowID')" name="FlowID"/> -->
+            <!--                 <property expression="get-property('FlowTransactionID')" name="FlowTransactionID"/> -->
+            <!--                 <property expression="get-property('ServiceConsumer')" name="ServiceConsumer"/> -->
+            <!--                 <property expression="get-property('HalfFlowTime')" name="HalfFlowTime"/> -->
+            <!--                 <property expression="get-property('HalfFlowID')" name="HalfFlowID"/> -->
+            <!--                 <property expression="get-property('HalfFlowTransactionID')" name="HalfFlowTransactionID"/> -->
+            <!--                 <property expression="get-property('PAYLOAD')" name="PAYLOAD"/> -->
+            <!--             </log> -->
+            <!--             <dbreport> -->
+            <!--                 <connection> -->
+            <!--                     <pool> -->
+            <!--                         <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver> -->
+            <!--                         <url>jdbc:sqlserver://localhost:1433;databaseName=ESB_Monitoring_DB</url> -->
+            <!--                         <user>sa</user> -->
+            <!--                         <password>123456789</password> -->
+            <!--                     </pool> -->
+            <!--                 </connection> -->
+            <!--                 <statement> -->
+            <!--                     <sql><![CDATA[insert into transactions (FlowID, HalfFlowID, FlowTransactionID, HalfFlowTransactionID, ServiceConsumer, HalfFlowTime, Payload)   values (?,?,?,?,?,?,?)]]></sql> -->
+            <!--                     <parameter expression="get-property('FlowID')" type="VARCHAR"/> -->
+            <!--                     <parameter expression="get-property('HalfFlowID')" type="VARCHAR"/> -->
+            <!--                     <parameter expression="get-property('FlowTransactionID')" type="VARCHAR"/> -->
+            <!--                     <parameter expression="get-property('HalfFlowTransactionID')" type="VARCHAR"/> -->
+            <!--                     <parameter expression="get-property('ServiceConsumer')" type="VARCHAR"/> -->
+            <!--                     <parameter expression="get-property('HalfFlowTime')" type="VARCHAR"/> -->
+            <!--                     <parameter expression="get-property('PAYLOAD')" type="VARCHAR"/> -->
+            <!--                 </statement> -->
+            <!--             </dbreport> -->
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <!--     <parameter name="transport.jms.DestinationType">queue</parameter> -->
+    <!--     <parameter name="transport.jms.Destination">in_queue</parameter> -->
+    <!--     <parameter name="transport.jms.ConnectionFactoryJNDIName">QueueConnectionFactory</parameter> -->
+</proxy>

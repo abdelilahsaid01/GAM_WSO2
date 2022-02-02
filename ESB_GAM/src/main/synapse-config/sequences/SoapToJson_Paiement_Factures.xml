@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SoapToJson_Paiement_Factures" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <!--     <datamapper config="gov:datamapper/SoapToJson_Conf.dmc" inputSchema="gov:datamapper/SoapToJson_Conf_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/SoapToJson_Conf_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/SoapToJson_Conf_xsltStyleSheet.xml"/> -->
+    <datamapper config="gov:datamapper/SoapToJson_confirmFactures_Ress.dmc" inputSchema="gov:datamapper/SoapToJson_confirmFactures_Ress_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/SoapToJson_confirmFactures_Ress_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/SoapToJson_confirmFactures_Ress_xsltStyleSheet.xml"/>
+    <log level="custom">
+        <property name="Paiement de Facture Proxy" value="Transformation SoapToJson successfully"/>
+    </log>
+</sequence>

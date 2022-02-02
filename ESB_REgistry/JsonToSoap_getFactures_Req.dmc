@@ -1,0 +1,83 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0 =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.RqUID = customFunction(inputroot.Factures.data.field.RqUID);
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif.UserId = inputroot.Factures.data.field.AddUsrIdentif.UserId;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif.RequestDate = inputroot.Factures.data.field.AddUsrIdentif.RequestDate;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif.UserLanguage = inputroot.Factures.data.field.AddUsrIdentif.UserLanguage;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif.Products = inputroot.Factures.data.field.AddUsrIdentif.Products;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif.ProviderLogin = inputroot.Factures.data.field.AddUsrIdentif.ProviderLogin;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AddUsrIdentif.ProviderPasswd = inputroot.Factures.data.field.AddUsrIdentif.ProviderPassword;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.CustomerInformation =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.CustomerInformation.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AgentInformation =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AgentInformation.keyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.MerchantInformation =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.MerchantInformation.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.PersonName =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.PersonName.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.PhoneNumber = inputroot.Factures.data.field.PhoneNumber;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.TransmissionDate = inputroot.Factures.data.field.TransmissionDate;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Stan = inputroot.Factures.data.field.Stan;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.TransactionDate = inputroot.Factures.data.field.TransactionDate;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.FunctionCode = inputroot.Factures.data.field.FonctionCode;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.AcquirerId = inputroot.Factures.data.field.AquirerId;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Rrn = inputroot.Factures.data.field.Rrn;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.FidelioCode = inputroot.Factures.data.field.FidelioCode;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.BillType = inputroot.Factures.data.field.BillType;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Acceptor_bank_code = inputroot.Factures.data.field.Acceptor_bank_code;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Canal_type = inputroot.Factures.data.field.Canal_type;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Terminal_id = inputroot.Factures.data.field.Terminal_id;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Outlet = inputroot.Factures.data.field.Outlet;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Location = inputroot.Factures.data.field.Location;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Canal = inputroot.Factures.data.field.Canal;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Type_id = inputroot.Factures.data.field.Type_Id;
+outputsoapenv_Envelope.soapenv_Body.v1_getinvoices.arg0.Id_client = inputroot.Factures.data.field.Id_Client;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+customFunction = function(data) {
+ return  (data.substring(0,8)+"-"+data.substring(9,13)+data.substring(14,18)+"-"+data.substring(19,23)+data.substring(24,28)+"-"+data.substring(28,36));};

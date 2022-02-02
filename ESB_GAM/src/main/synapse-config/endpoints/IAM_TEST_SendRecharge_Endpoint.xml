@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="IAM_TEST_SendRecharge_Endpoint" xmlns="http://ws.apache.org/ns/synapse">
+    <address format="soap11" uri="https://192.168.100.126:7016/PowerCardConnectApi/jaxws/SendRechargeWebService/V1">
+        <suspendOnFailure>
+            <initialDuration>-1</initialDuration>
+            <progressionFactor>1.0</progressionFactor>
+        </suspendOnFailure>
+        <markForSuspension>
+            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+        </markForSuspension>
+    </address>
+</endpoint>

@@ -1,0 +1,35 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+var SPLIT_12_0 = '';
+
+SPLIT_12_0 = inputroot.ISOMessage.data.field.field102.split(' ');
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures =  {};
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq =  {};
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.phoneNumber = SPLIT_12_0[1];
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.transmissionDate = inputroot.ISOMessage.data.field.field7;
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.stan = inputroot.ISOMessage.data.field.field11;
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.transactionDate = inputroot.ISOMessage.data.field.field56;
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.functionCode = inputroot.ISOMessage.data.field.field24;
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.acquirerId = inputroot.ISOMessage.data.field.field32;
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.rrn = inputroot.ISOMessage.data.field.field37;
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.fidelioCode = inputroot.ISOMessage.data.field.field39;
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.billType = SPLIT_12_0[0];
+outputsoapenv_Envelope.soapenv_Body.ser_getFactures.dataReq.canal = inputroot.ISOMessage.data.field.field94;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+

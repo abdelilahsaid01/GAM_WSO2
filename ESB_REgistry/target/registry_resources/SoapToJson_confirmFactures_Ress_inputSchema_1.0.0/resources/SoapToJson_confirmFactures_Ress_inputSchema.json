@@ -1,0 +1,93 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "ns2:payinvoicesResponse",
+  "type" : "object",
+  "properties" : {
+    "return" : {
+      "id" : "http://wso2jsonschema.org/return",
+      "type" : "object",
+      "properties" : {
+        "KeyValues" : {
+          "id" : "http://wso2jsonschema.org/return/KeyValue",
+          "type" : "object",
+          "properties" : {
+            "Data" : {
+              "id" : "http://wso2jsonschema.org/return/KeyValue/data",
+              "type" : "string"
+            },
+            "Key" : {
+              "id" : "http://wso2jsonschema.org/return/KeyValue/key",
+              "type" : "string"
+            },
+            "Type" : {
+              "id" : "http://wso2jsonschema.org/return/KeyValue/type",
+              "type" : "string"
+            }
+          }
+        },
+        "RqUID" : {
+          "id" : "http://wso2jsonschema.org/return/rqUID",
+          "type" : "string"
+        },
+        "ResultId" : {
+          "id" : "http://wso2jsonschema.org/return/resultId",
+          "type" : "string"
+        },
+        "ErrorCode" : {
+          "id" : "http://wso2jsonschema.org/return/errorCode",
+          "type" : "string"
+        },
+        "ErrorDesc" : {
+          "id" : "http://wso2jsonschema.org/return/errorDesc",
+          "type" : "string"
+        },
+        "AuthorisationNbr" : {
+          "id" : "http://wso2jsonschema.org/return/authorisationNbr",
+          "type" : "string"
+        },
+        "SettlmentDate" : {
+          "id" : "http://wso2jsonschema.org/return/settlmentDate",
+          "type" : "string"
+        },
+        "PayList" : {
+          "id" : "http://wso2jsonschema.org/return/payList",
+          "type" : "object",
+          "properties" : {
+            "KeyValues" : {
+              "id" : "http://wso2jsonschema.org/return/payList/keyValue",
+              "type" : "object",
+              "properties" : {
+                "Data" : {
+                  "id" : "http://wso2jsonschema.org/return/payList/keyValue/data",
+                  "type" : "string"
+                },
+                "Key" : {
+                  "id" : "http://wso2jsonschema.org/return/payList/keyValue/key",
+                  "type" : "string"
+                },
+                "Type" : {
+                  "id" : "http://wso2jsonschema.org/return/payList/keyValue/type",
+                  "type" : "string"
+                }
+              }
+            },
+            "Caxact" : {
+              "id" : "http://wso2jsonschema.org/return/payList/caxact",
+              "type" : "string"
+            },
+            "Payinamt" : {
+              "id" : "http://wso2jsonschema.org/return/payList/payinamt",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "ns2",
+    "url" : "http://v1.ws.provider.acp.com/"
+  } ]
+}

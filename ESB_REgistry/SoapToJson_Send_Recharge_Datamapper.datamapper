@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="v1:sendrechargeResponse" schemaDataType="OBJECT" level="1">
+      <node name="return" schemaDataType="OBJECT" level="2">
+        <node name="KeyValues" schemaDataType="OBJECT" level="3">
+          <node name="key" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/return/keyValues/key"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="Data" schemaDataType="STRING" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/return/keyValues/data"/>
+            <properties key="type" value="string"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="Type" schemaDataType="STRING" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/return/keyValues/type"/>
+            <properties key="type" value="string"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="added_properties_id" value="hasProperties"/>
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/keyValues"/>
+          <properties key="type" value="object"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="RqUID" schemaDataType="STRING" level="3">
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/rqUID"/>
+          <properties key="type" value="string"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="ResultId" schemaDataType="STRING" level="3">
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/resultId"/>
+          <properties key="type" value="string"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.2/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="ErrorCode" schemaDataType="STRING" level="3">
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/errorCode"/>
+          <properties key="type" value="string"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.3/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="ErrorDesc" schemaDataType="STRING" level="3">
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/errorDesc"/>
+          <properties key="type" value="string"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.4/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="AuthorisationNbr" schemaDataType="STRING" level="3">
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/authorisationNbr"/>
+          <properties key="type" value="string"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.6/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="SettlmentDate" schemaDataType="STRING" level="3">
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/settlmentDate"/>
+          <properties key="type" value="string"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.7/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="ResponseCode" schemaDataType="STRING" level="3">
+          <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+          <properties key="nullable" value="false"/>
+          <properties key="id" value="http://wso2jsonschema.org/return/responseCode"/>
+          <properties key="type" value="string"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@node.5/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/return"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{keyValues={id=http://wso2jsonschema.org/return/keyValues, type=object, properties={key={id=http://wso2jsonschema.org/return/keyValues/key, type=string}, data={id=http://wso2jsonschema.org/return/keyValues/data, type=string}, type={id=http://wso2jsonschema.org/return/keyValues/type, type=string}}}, rqUID={id=http://wso2jsonschema.org/return/rqUID, type=string}, resultId={id=http://wso2jsonschema.org/return/resultId, type=string}, errorCode={id=http://wso2jsonschema.org/return/errorCode, type=string}, errorDesc={id=http://wso2jsonschema.org/return/errorDesc, type=string}, authorisationNbr={id=http://wso2jsonschema.org/return/authorisationNbr, type=string}, settlmentDate={id=http://wso2jsonschema.org/return/settlmentDate, type=string}, responseCode={id=http://wso2jsonschema.org/return/responseCode, type=string}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=v1, url=http://v1.ws.provider.acp.com/}"/>
+      <properties key="namespaces" value="{prefix=v1, url=http://v1.ws.provider.acp.com/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="Message" schemaDataType="OBJECT" level="2">
+        <node name="data" schemaDataType="OBJECT" level="3">
+          <node name="field" schemaDataType="OBJECT" level="4">
+            <node name="KeyValues" schemaDataType="OBJECT" level="5">
+              <node name="Key" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/KeyValues/Key"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="Data" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/KeyValues/Data"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="Type" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/KeyValues/Type"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/KeyValues"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{Key={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Type, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="RqUID" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/RqUID"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="ResultId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/ResultId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="ErrorCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/ErrorCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="ErrorDesc" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/ErrorDesc"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="ResponseCode" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/responseCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="AuthorisationNbr" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/authorisationNbr"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="SettlmentDate" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/Factures/data/field/settlmentDate"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/Factures/data/field"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{KeyValues={id=http://wso2jsonschema.org/Factures/data/field/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Type, type=string}}}, RqUID={id=http://wso2jsonschema.org/Factures/data/field/RqUID, type=string}, ResultId={id=http://wso2jsonschema.org/Factures/data/field/ResultId, type=string}, ErrorCode={id=http://wso2jsonschema.org/Factures/data/field/ErrorCode, type=string}, ErrorDesc={id=http://wso2jsonschema.org/Factures/data/field/ErrorDesc, type=string}, responseCode={id=http://wso2jsonschema.org/Factures/data/field/responseCode, type=string}, authorisationNbr={id=http://wso2jsonschema.org/Factures/data/field/authorisationNbr, type=string}, settlmentDate={id=http://wso2jsonschema.org/Factures/data/field/settlmentDate, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/Factures/data"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{field={id=http://wso2jsonschema.org/Factures/data/field, type=object, properties={KeyValues={id=http://wso2jsonschema.org/Factures/data/field/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/Factures/data/field/KeyValues/Type, type=string}}}, RqUID={id=http://wso2jsonschema.org/Factures/data/field/RqUID, type=string}, ResultId={id=http://wso2jsonschema.org/Factures/data/field/ResultId, type=string}, ErrorCode={id=http://wso2jsonschema.org/Factures/data/field/ErrorCode, type=string}, ErrorDesc={id=http://wso2jsonschema.org/Factures/data/field/ErrorDesc, type=string}, responseCode={id=http://wso2jsonschema.org/Factures/data/field/responseCode, type=string}, authorisationNbr={id=http://wso2jsonschema.org/Factures/data/field/authorisationNbr, type=string}, settlmentDate={id=http://wso2jsonschema.org/Factures/data/field/settlmentDate, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="added_properties_id" value="hasProperties"/>
+        <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+        <properties key="nullable" value="false"/>
+        <properties key="id" value="http://wso2jsonschema.org/Factures"/>
+        <properties key="type" value="object"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

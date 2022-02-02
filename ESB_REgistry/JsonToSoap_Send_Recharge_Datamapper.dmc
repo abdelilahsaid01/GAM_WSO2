@@ -1,0 +1,89 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0 =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.RqUID = customFunction(inputroot.Message.data.field.RqUID);
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif.UserId = inputroot.Message.data.field.AddUsrIdentif.UserId;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif.RequestDate = inputroot.Message.data.field.AddUsrIdentif.RequestDate;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif.UserLanguage = inputroot.Message.data.field.AddUsrIdentif.UserLanguage;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif.Products = inputroot.Message.data.field.AddUsrIdentif.Products;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif.ProviderLogin = inputroot.Message.data.field.AddUsrIdentif.ProviderLogin;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AddUsrIdentif.ProviderPasswd = inputroot.Message.data.field.AddUsrIdentif.ProviderPassword;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.CustomerInformation =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.CustomerInformation.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AgentInformation =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.AgentInformation.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.MerchantInformation =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.MerchantInformation.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.PersonName =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.PersonName.KeyValues =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Phone_number_eme = inputroot.Message.data.field.Phone_number_eme;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Phone_number_rec = inputroot.Message.data.field.Phone_number_rec;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Fidelio_code = inputroot.Message.data.field.Fidelio_code;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Recharge_amount = inputroot.Message.data.field.Recharge_amount;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Transmission_date = inputroot.Message.data.field.Transmission_date;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Stan = inputroot.Message.data.field.Stan;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Transaction_date = inputroot.Message.data.field.Transaction_date;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Rrn = inputroot.Message.data.field.Rrn;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Expiration_Date = inputroot.Message.data.field.Expiration_Date;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Card_Numbers = inputroot.Message.data.field.Card_Numbers;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Bank_Name = inputroot.Message.data.field.Bank_Name;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Code_pass = inputroot.Message.data.field.Code_pass;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.IP_Adresse = inputroot.Message.data.field.IP_Adresse;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Acquirer_Id = inputroot.Message.data.field.Acquirer_Id;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Acceptor_bank_code = (inputroot.Message.data.field.Acceptor_bank_code).toString();
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Canal_type = inputroot.Message.data.field.Canal_type;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Terminal_id = inputroot.Message.data.field.Terminal_id;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Outlet = inputroot.Message.data.field.Outlet;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Location = inputroot.Message.data.field.Location;
+outputsoapenv_Envelope.soapenv_Body.v1_sendrecharge.arg0.Canal = inputroot.Message.data.field.Canal;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+customFunction = function(data) {
+ return  (data.substring(0,8)+"-"+data.substring(9,13)+data.substring(14,18)+"-"+data.substring(19,23)+data.substring(24,28)+"-"+data.substring(28,36));};

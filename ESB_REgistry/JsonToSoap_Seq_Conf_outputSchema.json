@@ -1,0 +1,98 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "null"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "ser:payFactures" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures",
+          "type" : "object",
+          "properties" : {
+            "dataReq" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq",
+              "type" : "object",
+              "properties" : {
+                "phoneNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/phoneNumber",
+                  "type" : "string"
+                },
+                "transmissionDate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/transmissionDate",
+                  "type" : "string"
+                },
+                "stan" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/stan",
+                  "type" : "string"
+                },
+                "transactionDate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/transactionDate",
+                  "type" : "string"
+                },
+                "functionCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/functionCode",
+                  "type" : "string"
+                },
+                "acquirerId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/acquirerId",
+                  "type" : "string"
+                },
+                "rrn" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/rrn",
+                  "type" : "string"
+                },
+                "fidelioCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/fidelioCode",
+                  "type" : "string"
+                },
+                "billType" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/billType",
+                  "type" : "string"
+                },
+                "canal" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/canal",
+                  "type" : "string"
+                },
+                "transactionAmount" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/transactionAmount",
+                  "type" : "string"
+                },
+                "orgAuthorisationNbr" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/orgAuthorisationNbr",
+                  "type" : "string"
+                },
+                "invoicesReference" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/invoicesReference",
+                  "type" : "string"
+                },
+                "transactionCurrency" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/transactionCurrency",
+                  "type" : "string"
+                },
+                "revendorId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/ser:payFactures/dataReq/revendorId",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "ser",
+    "url" : "http://service/"
+  } ]
+}

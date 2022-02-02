@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="APISwitchMTI" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="json-eval($.MTI)" name="MTI" scope="default" type="STRING"/>
+    <switch source="get-property('MTI')">
+        <case regex="1604">
+            <log level="custom">
+                <property name="getFactures" value="Demande de Factures"/>
+            </log>
+            <send>
+                <endpoint key="API_Get_Factures_Endpoints"/>
+            </send>
+        </case>
+        <case regex="1200">
+            <log level="custom">
+                <property name="PayFactures" value="Paiement de Factures"/>
+            </log>
+            <send>
+                <endpoint key="API_Pai_Factures_Endpoints"/>
+            </send>
+        </case>
+        <case regex="3001">
+            <log level="custom">
+                <property name="IsRecharge" value="Demande de verification de numero"/>
+            </log>
+            <send>
+                <endpoint key="API_Is_Recharge_Endpoints"/>
+            </send>
+        </case>
+        <case regex="3002">
+            <log level="custom">
+                <property name="SendRecharge" value="Paiement Recharge"/>
+            </log>
+            <send>
+                <endpoint key="API_Send_Recharge_Endpoints"/>
+            </send>
+        </case>
+        <default>
+            <property name="MTI" scope="default" type="STRING" value="{MTI:'1720'}"/>
+            <enrich>
+                <source clone="true" property="MTI" type="property"/>
+                <target action="child" xpath="json-eval($)"/>
+            </enrich>
+            <respond/>
+        </default>
+    </switch>
+</sequence>

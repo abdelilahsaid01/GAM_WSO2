@@ -1,0 +1,75 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "ISOMessage" : {
+      "id" : "http://wso2jsonschema.org/ISOMessage",
+      "type" : "object",
+      "properties" : {
+        "data" : {
+          "id" : "http://wso2jsonschema.org/ISOMessage/data",
+          "type" : "object",
+          "properties" : {
+            "field" : {
+              "id" : "http://wso2jsonschema.org/ISOMessage/data/field",
+              "type" : "object",
+              "properties" : {
+                "field0" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field0",
+                  "type" : "string"
+                },
+                "field4" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field4",
+                  "type" : "string"
+                },
+                "field7" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field7",
+                  "type" : "string"
+                },
+                "field11" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field11",
+                  "type" : "string"
+                },
+                "field24" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field24",
+                  "type" : "string"
+                },
+                "field32" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field32",
+                  "type" : "string"
+                },
+                "field37" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field37",
+                  "type" : "string"
+                },
+                "field39" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field39",
+                  "type" : "string"
+                },
+                "field56" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field56",
+                  "type" : "string"
+                },
+                "field72" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field72",
+                  "type" : "string"
+                },
+                "field94" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field94",
+                  "type" : "string"
+                },
+                "field102" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field102",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

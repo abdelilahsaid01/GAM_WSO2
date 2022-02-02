@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="Factures" schemaDataType="OBJECT" level="2">
+        <node name="data" schemaDataType="OBJECT" level="3">
+          <node name="field" schemaDataType="OBJECT" level="4">
+            <node name="MTI" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/MTI"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="TransactionAmount" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/transactionAmount"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="OrgAuthorisationNbr" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/orgAuthorisationNbr"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="InvoicesReference" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/invoicesReference"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="TransactionCurrency" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/transactionCurrency"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="FidelioCode" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/fidelioCode"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="RevendorId" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="true"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/revendorId"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.18/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="TransmissionDate" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/TransmissionDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Stan" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/Stan"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="FonctionCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/FonctionCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Canal" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/Canal"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.24/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="BillType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/BillType"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.17/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="TransactionDate" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/TransactionDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="PhoneNumber" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/PhoneNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="AddUsrIdentif" schemaDataType="OBJECT" level="5">
+              <node name="ProviderLogin" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderLogin"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@node.6/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="ProviderPassword" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderPassword"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@node.7/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="Products" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/UserIdentif/Products"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@node.5/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="UserId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserId"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="RequestDate" schemaDataType="STRING" level="6">
+                <properties key="nullable" value="true"/>
+                <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/UserIdentif/RequestDate"/>
+                <properties key="type" value="string"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="UserLanguage" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserLanguage"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@node.3/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="added_properties_id" value="hasProperties"/>
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field/UserIdentif"/>
+              <properties key="type" value="object"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="RqUID" level="5">
+              <properties key="type" value="string"/>
+              <properties key="items_id" value="/0"/>
+              <properties key="items_type" value="string"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink/>
+                <outgoingLink inNode="//@operators.0/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Acceptor_bank_code" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.19/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Canal_type" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.20/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Terminal_id" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="true"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.21/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Outlet" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="true"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.22/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Location" level="5">
+              <properties key="type" value="string"/>
+              <properties key="items_id" value="/0"/>
+              <properties key="items_type" value="string"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.23/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Rrn" level="5">
+              <properties key="nullable" value="false"/>
+              <properties key="items_id" value="/0"/>
+              <properties key="items_type" value="string"/>
+              <properties key="type" value="string"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="AcquirerId" level="5">
+              <properties key="type" value="string"/>
+              <properties key="items_id" value="/0"/>
+              <properties key="items_type" value="string"/>
+              <properties key="nullable" value="true"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.26/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/getFactures/data/field"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{MTI={id=http://wso2jsonschema.org/getFactures/data/field/MTI, type=string}, transactionAmount={id=http://wso2jsonschema.org/getFactures/data/field/transactionAmount, type=string}, orgAuthorisationNbr={id=http://wso2jsonschema.org/getFactures/data/field/orgAuthorisationNbr, type=string}, invoicesReference={id=http://wso2jsonschema.org/getFactures/data/field/invoicesReference, type=string}, transactionCurrency={id=http://wso2jsonschema.org/getFactures/data/field/transactionCurrency, type=string}, fidelioCode={id=http://wso2jsonschema.org/getFactures/data/field/fidelioCode, type=string}, revendorId={id=http://wso2jsonschema.org/getFactures/data/field/revendorId, type=string}, TransmissionDate={id=http://wso2jsonschema.org/getFactures/data/field/TransmissionDate, type=string}, Stan={id=http://wso2jsonschema.org/getFactures/data/field/Stan, type=string}, FonctionCode={id=http://wso2jsonschema.org/getFactures/data/field/FonctionCode, type=string}, AquirrerId={id=http://wso2jsonschema.org/getFactures/data/field/AquirrerId, type=string}, Rrn={id=http://wso2jsonschema.org/getFactures/data/field/Rrn, type=string}, Canal={id=http://wso2jsonschema.org/getFactures/data/field/Canal, type=string}, BillType={id=http://wso2jsonschema.org/getFactures/data/field/BillType, type=string}, TransactionDate={id=http://wso2jsonschema.org/getFactures/data/field/TransactionDate, type=string}, Type_Id={id=http://wso2jsonschema.org/getFactures/data/field/Type_Id, type=number}, PhoneNumber={id=http://wso2jsonschema.org/getFactures/data/field/PhoneNumber, type=string}, UserIdentif={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif, type=object, properties={ProviderLogin={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderLogin, type=string}, ProviderPassword={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderPassword, type=string}, Products={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/Products, type=string}, UserId={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserId, type=string}, RequestDate={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/RequestDate, type=string}, UserLanguage={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserLanguage, type=string}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/getFactures/data"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{field={id=http://wso2jsonschema.org/getFactures/data/field, type=object, properties={MTI={id=http://wso2jsonschema.org/getFactures/data/field/MTI, type=string}, transactionAmount={id=http://wso2jsonschema.org/getFactures/data/field/transactionAmount, type=string}, orgAuthorisationNbr={id=http://wso2jsonschema.org/getFactures/data/field/orgAuthorisationNbr, type=string}, invoicesReference={id=http://wso2jsonschema.org/getFactures/data/field/invoicesReference, type=string}, transactionCurrency={id=http://wso2jsonschema.org/getFactures/data/field/transactionCurrency, type=string}, fidelioCode={id=http://wso2jsonschema.org/getFactures/data/field/fidelioCode, type=string}, revendorId={id=http://wso2jsonschema.org/getFactures/data/field/revendorId, type=string}, TransmissionDate={id=http://wso2jsonschema.org/getFactures/data/field/TransmissionDate, type=string}, Stan={id=http://wso2jsonschema.org/getFactures/data/field/Stan, type=string}, FonctionCode={id=http://wso2jsonschema.org/getFactures/data/field/FonctionCode, type=string}, AquirrerId={id=http://wso2jsonschema.org/getFactures/data/field/AquirrerId, type=string}, Rrn={id=http://wso2jsonschema.org/getFactures/data/field/Rrn, type=string}, Canal={id=http://wso2jsonschema.org/getFactures/data/field/Canal, type=string}, BillType={id=http://wso2jsonschema.org/getFactures/data/field/BillType, type=string}, TransactionDate={id=http://wso2jsonschema.org/getFactures/data/field/TransactionDate, type=string}, Type_Id={id=http://wso2jsonschema.org/getFactures/data/field/Type_Id, type=number}, PhoneNumber={id=http://wso2jsonschema.org/getFactures/data/field/PhoneNumber, type=string}, UserIdentif={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif, type=object, properties={ProviderLogin={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderLogin, type=string}, ProviderPassword={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderPassword, type=string}, Products={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/Products, type=string}, UserId={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserId, type=string}, RequestDate={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/RequestDate, type=string}, UserLanguage={id=http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserLanguage, type=string}}}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="added_properties_id" value="hasProperties"/>
+        <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+        <properties key="nullable" value="false"/>
+        <properties key="id" value="http://wso2jsonschema.org/getFactures"/>
+        <properties key="type" value="object"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="NULL" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="v1:payinvoices" schemaDataType="OBJECT" level="3">
+          <node name="arg0" schemaDataType="OBJECT" level="4">
+            <node name="KeyValues" schemaDataType="OBJECT" level="5">
+              <node name="Key" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Key"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="Data" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Data"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="Type" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Type"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="added_properties_id" value="hasProperties"/>
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues"/>
+              <properties key="type" value="object"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="RqUID" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/RqUID"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="AddUsrIdentif" schemaDataType="OBJECT" level="5">
+              <node name="KeyValues" schemaDataType="OBJECT" level="6">
+                <node name="Key" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Key"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Data" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Data"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Type" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Type"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="added_properties_id" value="hasProperties"/>
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues"/>
+                <properties key="type" value="object"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="UserId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.14/@node.3/@outNode/@outgoingLink.1"/>
+              </node>
+              <node name="RequestDate" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/RequestDate"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.14/@node.4/@outNode/@outgoingLink.1"/>
+              </node>
+              <node name="UserLanguage" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserLanguage"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.14/@node.5/@outNode/@outgoingLink.1"/>
+              </node>
+              <node name="FinancialInstitution" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/FinancialInstitution"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="Products" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/Products"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.14/@node.2/@outNode/@outgoingLink.1"/>
+              </node>
+              <node name="ProviderLogin" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderLogin"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.14/@node.0/@outNode/@outgoingLink.1"/>
+              </node>
+              <node name="ProviderPasswd" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderPasswd"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.14/@node.1/@outNode/@outgoingLink.1"/>
+              </node>
+              <properties key="added_properties_id" value="hasProperties"/>
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif"/>
+              <properties key="type" value="object"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="CustomerInformation" schemaDataType="OBJECT" level="5">
+              <node name="KeyValues" schemaDataType="OBJECT" level="6">
+                <node name="Key" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Key"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Data" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Data"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Type" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Type"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="added_properties_id" value="hasProperties"/>
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues"/>
+                <properties key="type" value="object"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="CustomerId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/CustomerId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="OrgId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="OrgDepth" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgDepth"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="ContractId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/ContractId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="added_properties_id" value="hasProperties"/>
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation"/>
+              <properties key="type" value="object"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="AgentInformation" schemaDataType="OBJECT" level="5">
+              <node name="KeyValues" schemaDataType="OBJECT" level="6">
+                <node name="Key" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Key"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Data" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Data"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Type" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Type"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="added_properties_id" value="hasProperties"/>
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues"/>
+                <properties key="type" value="object"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="OedInstitutionId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/OedInstitutionId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="BranchId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/BranchId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="AgentId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/AgentId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="added_properties_id" value="hasProperties"/>
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation"/>
+              <properties key="type" value="object"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="MerchantInformation" schemaDataType="OBJECT" level="5">
+              <node name="KeyValues" schemaDataType="OBJECT" level="6">
+                <node name="Key" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Key"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Data" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Data"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Type" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Type"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="added_properties_id" value="hasProperties"/>
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues"/>
+                <properties key="type" value="object"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="ChainId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/ChainId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="MerchantId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/MerchantId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="PosId" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/PosId"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="added_properties_id" value="hasProperties"/>
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation"/>
+              <properties key="type" value="object"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="PersonName" schemaDataType="OBJECT" level="5">
+              <node name="KeyValues" schemaDataType="OBJECT" level="6">
+                <node name="Key" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Key"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Data" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Data"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="Type" schemaDataType="STRING" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Type"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="added_properties_id" value="hasProperties"/>
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues"/>
+                <properties key="type" value="object"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="LastName" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="LastName2" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName2"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="FirstName" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/FirstName"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="MiddleName" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/MiddleName"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="TitlePrefix" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/TitlePrefix"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="NameSuffix" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NameSuffix"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="NickName" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NickName"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="LegalName" schemaDataType="STRING" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LegalName"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="added_properties_id" value="hasProperties"/>
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName"/>
+              <properties key="type" value="object"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="PhoneNumber" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PhoneNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.13/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="Transactionamount" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactionamount"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="Stan" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Stan"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.8/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="TransmissionDate" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransmissionDate"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.7/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="TransactionDate" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransactionDate"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.12/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="FunctionCode" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FunctionCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.9/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="OrgAuthorisationNbr" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/OrgAuthorisationNbr"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="InvoicesReference" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/InvoicesReference"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.3/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="Transactioncurrency" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactioncurrency"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.4/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="FidelioCode" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FidelioCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.5/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="BillType" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/BillType"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.11/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="Revendorid" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Revendorid"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.6/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="Acceptor_bank_code" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Acceptor_bank_code"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="Canal_type" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal_type"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.17/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="Terminal_id" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Terminal_id"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.18/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="Outlet" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Outlet"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.19/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="Location" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Location"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.20/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="Canal" schemaDataType="STRING" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.10/@outNode/@outgoingLink.1"/>
+            </node>
+            <node name="Rrn" level="5">
+              <properties key="nullable" value="false"/>
+              <properties key="items_id" value="/0"/>
+              <properties key="items_type" value="string"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="AcquirerId" level="5">
+              <properties key="type" value="string"/>
+              <properties key="items_id" value="/0"/>
+              <properties key="items_type" value="string"/>
+              <properties key="nullable" value="true"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.22/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Type, type=string}}}, RqUID={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/RqUID, type=string}, AddUsrIdentif={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Type, type=string}}}, UserId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserId, type=string}, RequestDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/RequestDate, type=string}, UserLanguage={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserLanguage, type=string}, FinancialInstitution={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/FinancialInstitution, type=string}, Products={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/Products, type=string}, ProviderLogin={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderLogin, type=string}, ProviderPasswd={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderPasswd, type=string}}}, CustomerInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Type, type=string}}}, CustomerId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/CustomerId, type=string}, OrgId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgId, type=string}, OrgDepth={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgDepth, type=string}, ContractId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/ContractId, type=string}}}, AgentInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Type, type=string}}}, OedInstitutionId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/OedInstitutionId, type=string}, BranchId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/BranchId, type=string}, AgentId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/AgentId, type=string}}}, MerchantInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Type, type=string}}}, ChainId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/ChainId, type=string}, MerchantId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/MerchantId, type=string}, PosId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/PosId, type=string}}}, PersonName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Type, type=string}}}, LastName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName, type=string}, LastName2={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName2, type=string}, FirstName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/FirstName, type=string}, MiddleName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/MiddleName, type=string}, TitlePrefix={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/TitlePrefix, type=string}, NameSuffix={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NameSuffix, type=string}, NickName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NickName, type=string}, LegalName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LegalName, type=string}}}, PhoneNumber={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PhoneNumber, type=string}, Transactionamount={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactionamount, type=string}, Stan={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Stan, type=string}, TransmissionDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransmissionDate, type=string}, TransactionDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransactionDate, type=string}, FunctionCode={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FunctionCode, type=string}, OrgAuthorisationNbr={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/OrgAuthorisationNbr, type=string}, InvoicesReference={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/InvoicesReference, type=string}, Transactioncurrency={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactioncurrency, type=string}, FidelioCode={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FidelioCode, type=string}, BillType={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/BillType, type=string}, Revendorid={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Revendorid, type=string}, Acceptor_bank_code={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Acceptor_bank_code, type=string}, Canal_type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal_type, type=string}, Terminal_id={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Terminal_id, type=string}, Outlet={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Outlet, type=string}, Location={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Location, type=string}, Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal, type=string}}"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.21/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="namespaces" value="{prefix=v1, url=http://v1.ws.provider.acp.com/}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:payinvoices"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{arg0={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Type, type=string}}}, RqUID={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/RqUID, type=string}, AddUsrIdentif={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Type, type=string}}}, UserId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserId, type=string}, RequestDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/RequestDate, type=string}, UserLanguage={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserLanguage, type=string}, FinancialInstitution={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/FinancialInstitution, type=string}, Products={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/Products, type=string}, ProviderLogin={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderLogin, type=string}, ProviderPasswd={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderPasswd, type=string}}}, CustomerInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Type, type=string}}}, CustomerId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/CustomerId, type=string}, OrgId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgId, type=string}, OrgDepth={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgDepth, type=string}, ContractId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/ContractId, type=string}}}, AgentInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Type, type=string}}}, OedInstitutionId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/OedInstitutionId, type=string}, BranchId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/BranchId, type=string}, AgentId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/AgentId, type=string}}}, MerchantInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Type, type=string}}}, ChainId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/ChainId, type=string}, MerchantId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/MerchantId, type=string}, PosId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/PosId, type=string}}}, PersonName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Type, type=string}}}, LastName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName, type=string}, LastName2={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName2, type=string}, FirstName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/FirstName, type=string}, MiddleName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/MiddleName, type=string}, TitlePrefix={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/TitlePrefix, type=string}, NameSuffix={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NameSuffix, type=string}, NickName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NickName, type=string}, LegalName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LegalName, type=string}}}, PhoneNumber={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PhoneNumber, type=string}, Transactionamount={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactionamount, type=string}, Stan={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Stan, type=string}, TransmissionDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransmissionDate, type=string}, TransactionDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransactionDate, type=string}, FunctionCode={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FunctionCode, type=string}, OrgAuthorisationNbr={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/OrgAuthorisationNbr, type=string}, InvoicesReference={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/InvoicesReference, type=string}, Transactioncurrency={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactioncurrency, type=string}, FidelioCode={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FidelioCode, type=string}, BillType={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/BillType, type=string}, Revendorid={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Revendorid, type=string}, Acceptor_bank_code={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Acceptor_bank_code, type=string}, Canal_type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal_type, type=string}, Terminal_id={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Terminal_id, type=string}, Outlet={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Outlet, type=string}, Location={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Location, type=string}, Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{v1:payinvoices={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices, type=object, properties={arg0={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/KeyValues/Type, type=string}}}, RqUID={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/RqUID, type=string}, AddUsrIdentif={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/KeyValues/Type, type=string}}}, UserId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserId, type=string}, RequestDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/RequestDate, type=string}, UserLanguage={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/UserLanguage, type=string}, FinancialInstitution={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/FinancialInstitution, type=string}, Products={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/Products, type=string}, ProviderLogin={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderLogin, type=string}, ProviderPasswd={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AddUsrIdentif/ProviderPasswd, type=string}}}, CustomerInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/KeyValues/Type, type=string}}}, CustomerId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/CustomerId, type=string}, OrgId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgId, type=string}, OrgDepth={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/OrgDepth, type=string}, ContractId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/CustomerInformation/ContractId, type=string}}}, AgentInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/KeyValues/Type, type=string}}}, OedInstitutionId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/OedInstitutionId, type=string}, BranchId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/BranchId, type=string}, AgentId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/AgentInformation/AgentId, type=string}}}, MerchantInformation={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/KeyValues/Type, type=string}}}, ChainId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/ChainId, type=string}, MerchantId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/MerchantId, type=string}, PosId={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/MerchantInformation/PosId, type=string}}}, PersonName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName, type=object, properties={KeyValues={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues, type=object, properties={Key={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Key, type=string}, Data={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Data, type=string}, Type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/KeyValues/Type, type=string}}}, LastName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName, type=string}, LastName2={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LastName2, type=string}, FirstName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/FirstName, type=string}, MiddleName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/MiddleName, type=string}, TitlePrefix={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/TitlePrefix, type=string}, NameSuffix={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NameSuffix, type=string}, NickName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/NickName, type=string}, LegalName={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PersonName/LegalName, type=string}}}, PhoneNumber={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/PhoneNumber, type=string}, Transactionamount={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactionamount, type=string}, Stan={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Stan, type=string}, TransmissionDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransmissionDate, type=string}, TransactionDate={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/TransactionDate, type=string}, FunctionCode={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FunctionCode, type=string}, OrgAuthorisationNbr={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/OrgAuthorisationNbr, type=string}, InvoicesReference={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/InvoicesReference, type=string}, Transactioncurrency={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Transactioncurrency, type=string}, FidelioCode={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/FidelioCode, type=string}, BillType={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/BillType, type=string}, Revendorid={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Revendorid, type=string}, Acceptor_bank_code={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Acceptor_bank_code, type=string}, Canal_type={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal_type, type=string}, Terminal_id={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Terminal_id, type=string}, Outlet={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Outlet, type=string}, Location={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Location, type=string}, Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:payinvoices/arg0/Canal, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=v1, url=http://v1.ws.provider.acp.com/}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+  <operators xsi:type="datamapper:CustomFunction" defaultInputConnectors="2" defaultOutputConnectors="1" operatorType="CUSTOM_FUNCTION" functionDefinition="function(data) {&#xD;&#xA; return  (data.substring(0,8)+&quot;-&quot;+data.substring(9,13)+data.substring(14,18)+&quot;-&quot;+data.substring(19,23)+data.substring(24,28)+&quot;-&quot;+data.substring(28,36));};">
+    <basicContainer>
+      <leftContainer>
+        <leftConnectors>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.15/@outNode/@outgoingLink.1"/>
+        </leftConnectors>
+      </leftContainer>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+</datamapper:DataMapperRoot>

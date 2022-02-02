@@ -1,0 +1,35 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "ISOMessage" : {
+      "id" : "http://wso2jsonschema.org/ISOMessage",
+      "type" : "object",
+      "properties" : {
+        "data" : {
+          "id" : "http://wso2jsonschema.org/ISOMessage/data",
+          "type" : "object",
+          "properties" : {
+            "field" : {
+              "id" : "http://wso2jsonschema.org/ISOMessage/data/field",
+              "type" : "object",
+              "properties" : {
+                "field0" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field0",
+                  "type" : "string"
+                },
+                "field39" : {
+                  "id" : "http://wso2jsonschema.org/ISOMessage/data/field/field39",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

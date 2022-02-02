@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="FaultSequence_Res" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="" level="custom">
+        <property expression="get-property('ERROR_CODE')" name="ERROR_CODE"/>
+        <property expression="get-property('ERROR_MESSAGE')" name="ERROR_MESSAGE"/>
+        <property expression="get-property('ERROR_DETAIL')" name="ERROR_DETAIL"/>
+    </log>
+    <switch description="" source="get-property('ERROR_CODE')">
+        <case regex="101503">
+            <property name="ESB_ERROR_CODE" scope="default" type="STRING" value="1099"/>
+            <log description="" level="custom">
+                <property name="OUR_ERROR" value="Error : Connection cannot be made"/>
+            </log>
+        </case>
+        <case regex="101504">
+            <property name="ESB_ERROR_CODE" scope="default" type="STRING" value="1098"/>
+            <log description="" level="custom">
+                <property name="OUR_ERROR" value="Error : Connection timed out into suspension"/>
+            </log>
+        </case>
+        <default>
+            <property name="ESB_ERROR_CODE" scope="default" type="STRING" value="1097"/>
+            <log description="" level="custom">
+                <property name="OUR_ERROR" value="Error : Generic fault handler, code not specified"/>
+            </log>
+        </default>
+    </switch>
+    <payloadFactory media-type="json">
+        <format>{"Factures":{"data":{"field":{"ESB_ERROR_CODE":"$1","Stan":"$2","Rrn":"$3"}}}}</format>
+        <args>
+            <arg evaluator="xml" expression="get-property('ESB_ERROR_CODE')"/>
+            <arg evaluator="xml" expression="get-property('Stan')"/>
+            <arg evaluator="xml" expression="get-property('Rrn')"/>
+        </args>
+    </payloadFactory>
+    <!-- DB -->
+</sequence>

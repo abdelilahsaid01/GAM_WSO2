@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="API_Proxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <log level="custom">
+                <property expression="json-eval($)" name="API_Proxy: Sending Request To Back End"/>
+            </log>
+            <property expression="json-eval($.MTI)" name="MTI" scope="default" type="STRING"/>
+            <filter xpath="get-property('MTI')">
+                <then>
+                    <sequence key="APISwitchMTI"/>
+                </then>
+                <else>
+                    <property name="MTI" scope="default" type="STRING" value="{MTI:'1700'}"/>
+                    <enrich>
+                        <source clone="true" property="MTI" type="property"/>
+                        <target action="child" xpath="json-eval($)"/>
+                    </enrich>
+                    <respond/>
+                </else>
+            </filter>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>

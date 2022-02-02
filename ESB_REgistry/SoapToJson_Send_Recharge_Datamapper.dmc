@@ -1,0 +1,34 @@
+map_S_sendrechargeResponse_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.Message =  {};
+outputroot.Message.data =  {};
+outputroot.Message.data.field =  {};
+outputroot.Message.data.field.KeyValues =  {};
+outputroot.Message.data.field.KeyValues.Key = inputv1_sendrechargeResponse.return.KeyValues.key;
+outputroot.Message.data.field.KeyValues.Data = inputv1_sendrechargeResponse.return.KeyValues.Data;
+outputroot.Message.data.field.KeyValues.Type = inputv1_sendrechargeResponse.return.KeyValues.Type;
+outputroot.Message.data.field.RqUID = inputv1_sendrechargeResponse.return.RqUID;
+outputroot.Message.data.field.ResultId = inputv1_sendrechargeResponse.return.ResultId;
+outputroot.Message.data.field.ErrorCode = inputv1_sendrechargeResponse.return.ErrorCode;
+outputroot.Message.data.field.ErrorDesc = inputv1_sendrechargeResponse.return.ErrorDesc;
+outputroot.Message.data.field.ResponseCode = inputv1_sendrechargeResponse.return.ResponseCode;
+outputroot.Message.data.field.AuthorisationNbr = inputv1_sendrechargeResponse.return.AuthorisationNbr;
+outputroot.Message.data.field.SettlmentDate = inputv1_sendrechargeResponse.return.SettlmentDate;
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Insert_Flow_Config" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="get-property(&quot;SYSTEM_DATE&quot;, &quot;yyyy-MM-dd'-'HH-mm-ss.SSS&quot;)" name="HalfFlowTime" scope="default" type="STRING"/>
+    <property expression="fn:concat(get-property('FlowID'),'-', get-property('SeqNumber'))" name="HalfFlowID" scope="default" type="STRING"/>
+    <property expression="fn:concat(get-property('FlowTransactionID'),'-', get-property('SeqNumber'))" name="HalfFlowTransactionID" scope="default" type="STRING"/>
+    <log level="custom">
+        <property name="GAM API " value="P1"/>
+    </log>
+    <payloadFactory media-type="json">
+        <format>{"Message":{"Config":{"FlowID":"$1","FlowTransactionID":"$2","HalfFlowID":"$3","HalfFlowTime":"$4","HalfFlowTransactionID":"$5","SeqNumber":"$6","ServiceConsumer":"$7"},"data":$8}}</format>
+        <args>
+            <arg evaluator="xml" expression="get-property('FlowID')"/>
+            <arg evaluator="xml" expression="get-property('FlowTransactionID')"/>
+            <arg evaluator="xml" expression="get-property('HalfFlowID')"/>
+            <arg evaluator="xml" expression="get-property('HalfFlowTime')"/>
+            <arg evaluator="xml" expression="get-property('HalfFlowTransactionID')"/>
+            <arg evaluator="xml" expression="get-property('SeqNumber')"/>
+            <arg evaluator="xml" expression="get-property('ServiceConsumer')"/>
+            <arg evaluator="xml" expression="get-property('data')"/>
+        </args>
+    </payloadFactory>
+</sequence>

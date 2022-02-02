@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="Basic-Auth-Key" xmlns="http://ws.apache.org/ns/synapse">
+    <localEntry key="Basic-Auth-Key">
+        <credentials>
+            <username>userName</username>
+            <password>P@ssw0rd</password>
+        </credentials>
+    </localEntry>
+</localEntry>

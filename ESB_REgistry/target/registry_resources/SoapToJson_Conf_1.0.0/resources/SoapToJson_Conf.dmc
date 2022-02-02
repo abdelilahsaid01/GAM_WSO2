@@ -1,0 +1,16 @@
+map_S_payFacturesResponse_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.ISOMessage =  {};
+outputroot.ISOMessage.data =  {};
+outputroot.ISOMessage.data.field =  {};
+outputroot.ISOMessage.data.field.field0 = inputns2_payFacturesResponse.return.AuthorisationNbr;
+outputroot.ISOMessage.data.field.field39 = inputns2_payFacturesResponse.return.SettlmentDate;
+return outputroot;
+};
+
+
+
+
+

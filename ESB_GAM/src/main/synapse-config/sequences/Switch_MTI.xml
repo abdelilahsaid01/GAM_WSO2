@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Switch_MTI" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <switch source="get-property('MTI')">
+        <case regex="1604">
+            <send>
+                <endpoint key="Demande_Factures_Endpoints"/>
+            </send>
+        </case>
+        <case regex="1200">
+            <send>
+                <endpoint key="Paiement_Factures_Endpoints"/>
+            </send>
+        </case>
+        <case regex="3001">
+            <send>
+                <endpoint key="Is_Recharge_Endpoints"/>
+            </send>
+        </case>
+        <case regex="3002">
+            <send>
+                <endpoint key="Send_Recharge_Endpoints"/>
+            </send>
+        </case>
+        <default>
+            <property name="MTI" scope="default" type="STRING" value="{MTI:'1720'}"/>
+            <enrich>
+                <source clone="true" property="MTI" type="property"/>
+                <target action="child" xpath="json-eval(Factures.data.field)"/>
+            </enrich>
+            <respond/>
+        </default>
+    </switch>
+</sequence>

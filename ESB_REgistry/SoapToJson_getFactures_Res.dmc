@@ -1,0 +1,32 @@
+map_S_getinvoicesResponse_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.Factures =  {};
+outputroot.Factures.data =  {};
+outputroot.Factures.data.field =  {};
+outputroot.Factures.data.field.KeyValues =  {};
+outputroot.Factures.data.field.KeyValues.Key = inputns2_getinvoicesResponse.return.KeyValues.Key;
+outputroot.Factures.data.field.KeyValues.Data = inputns2_getinvoicesResponse.return.KeyValues.Data;
+outputroot.Factures.data.field.KeyValues.Type = inputns2_getinvoicesResponse.return.KeyValues.Type;
+outputroot.Factures.data.field.RqUID = inputns2_getinvoicesResponse.return.RqUID;
+outputroot.Factures.data.field.ResultId = inputns2_getinvoicesResponse.return.ResultId;
+outputroot.Factures.data.field.ErrorCode = inputns2_getinvoicesResponse.return.ErrorCode;
+outputroot.Factures.data.field.ErrorDesc = inputns2_getinvoicesResponse.return.ErrorDesc;
+outputroot.Factures.data.field.AuthorisationNbr = inputns2_getinvoicesResponse.return.AuthorisationNbr;
+outputroot.Factures.data.field.FieldIso72 = inputns2_getinvoicesResponse.return.FieldIso72;
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+

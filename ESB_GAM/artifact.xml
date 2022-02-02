@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Switch_MTI" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Switch_MTI.xml</file>
+    </artifact>
+    <artifact name="GAM_API" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/GAM_API.xml</file>
+    </artifact>
+    <artifact name="JsonToSoap_Demande_Factures" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/JsonToSoap_Demande_Factures.xml</file>
+    </artifact>
+    <artifact name="Demande_Factures_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/Demande_Factures_Proxy.xml</file>
+    </artifact>
+    <artifact name="Demande_Factures_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Demande_Factures_Endpoints.xml</file>
+    </artifact>
+    <artifact name="Simulator_Endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Simulator_Endpoint.xml</file>
+    </artifact>
+    <artifact name="SoapToJson_Demande_Factures" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SoapToJson_Demande_Factures.xml</file>
+    </artifact>
+    <artifact name="Paiement_Factures_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/Paiement_Factures_Proxy.xml</file>
+    </artifact>
+    <artifact name="Paiement_Factures_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Paiement_Factures_Endpoints.xml</file>
+    </artifact>
+    <artifact name="JsonToSoap_Paiement_Factures" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/JsonToSoap_Paiement_Factures.xml</file>
+    </artifact>
+    <artifact name="SoapToJson_Paiement_Factures" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SoapToJson_Paiement_Factures.xml</file>
+    </artifact>
+    <artifact name="FaultSequence_Res" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/FaultSequence_Res.xml</file>
+    </artifact>
+    <artifact name="Is_Recharge_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/Is_Recharge_Proxy.xml</file>
+    </artifact>
+    <artifact name="Send_Recharge_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/Send_Recharge_Proxy.xml</file>
+    </artifact>
+    <artifact name="Is_Recharge_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Is_Recharge_Endpoints.xml</file>
+    </artifact>
+    <artifact name="Send_Recharge_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Send_Recharge_Endpoints.xml</file>
+    </artifact>
+    <artifact name="JsonToSoap_Is_Recharge" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/JsonToSoap_Is_Recharge.xml</file>
+    </artifact>
+    <artifact name="SoapToJson_Is_Recharge" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SoapToJson_Is_Recharge.xml</file>
+    </artifact>
+    <artifact name="JsonToSoap_Send_Recharge" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/JsonToSoap_Send_Recharge.xml</file>
+    </artifact>
+    <artifact name="SoapToJson_Send_Recharge" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SoapToJson_Send_Recharge.xml</file>
+    </artifact>
+    <artifact name="Basic-Auth-Key" groupId="com.example.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/Basic-Auth-Key.xml</file>
+    </artifact>
+    <artifact name="API_Get_Factures_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/API_Get_Factures_Endpoints.xml</file>
+    </artifact>
+    <artifact name="API_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/API_Proxy.xml</file>
+    </artifact>
+    <artifact name="APISwitchMTI" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/APISwitchMTI.xml</file>
+    </artifact>
+    <artifact name="API_Pai_Factures_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/API_Pai_Factures_Endpoints.xml</file>
+    </artifact>
+    <artifact name="API_Authentification_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/API_Authentification_Proxy.xml</file>
+    </artifact>
+    <artifact name="API_Auehtification_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/API_Auehtification_Endpoints.xml</file>
+    </artifact>
+    <artifact name="API_Is_Recharge_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/API_Is_Recharge_Endpoints.xml</file>
+    </artifact>
+    <artifact name="API_Recharge_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/API_Recharge_Proxy.xml</file>
+    </artifact>
+    <artifact name="API_Send_Recharge_Endpoints" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/API_Send_Recharge_Endpoints.xml</file>
+    </artifact>
+    <artifact name="IAM_TEST_GetInvoices_Endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/IAM_TEST_GetInvoices_Endpoint.xml</file>
+    </artifact>
+    <artifact name="IAM_TEST_IsRechargeActivated_Endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/IAM_TEST_IsRechargeActivated_Endpoint.xml</file>
+    </artifact>
+    <artifact name="IAM_TEST_PayInvoices_Endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/IAM_TEST_PayInvoices_Endpoint.xml</file>
+    </artifact>
+    <artifact name="IAM_TEST_SendRecharge_Endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/IAM_TEST_SendRecharge_Endpoint.xml</file>
+    </artifact>
+    <artifact name="testQueue" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/testQueue.xml</file>
+    </artifact>
+    <artifact name="SendToLogQueue" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SendToLogQueue.xml</file>
+    </artifact>
+    <artifact name="ConnecteurMonitoring" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/ConnecteurMonitoring.xml</file>
+    </artifact>
+    <artifact name="Insert_Flow_Config" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Insert_Flow_Config.xml</file>
+    </artifact>
+</artifacts>

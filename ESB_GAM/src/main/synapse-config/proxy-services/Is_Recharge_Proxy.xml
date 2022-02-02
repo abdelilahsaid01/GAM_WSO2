@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="Is_Recharge_Proxy" startOnLoad="true" transports="http https jsm" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <property expression="json-eval($.Message.data)" name="data" scope="default" type="STRING"/>
+            <property expression="json-eval($.Message.data.field.Stan)" name="Stan" scope="default" type="STRING"/>
+            <property expression="json-eval($.Message.data.field.Rrn)" name="Rrn" scope="default" type="STRING"/>
+            <property name="FlowID" scope="default" type="STRING" value="FL_Rech_IAM_IR"/>
+            <property expression="get-property('Rrn')" name="FlowTransactionID" scope="default" type="STRING"/>
+            <clone>
+                <target>
+                    <sequence>
+                        <log level="custom">
+                            <property name="Is Recharge Proxy: Sending  Request To IAM Server" value="is Recharge callled"/>
+                        </log>
+                        <sequence key="JsonToSoap_Is_Recharge"/>
+                        <log level="custom">
+                            <property expression="$body/*" name="Is Recharge Proxy: Sending  Request To IAM Server"/>
+                        </log>
+                        <send>
+                            <endpoint key="Simulator_Endpoint"/>
+                            <!--                             <endpoint key="IAM_TEST_IsRechargeActivated_Endpoint" /> -->
+                        </send>
+                    </sequence>
+                </target>
+                <target>
+                    <sequence>
+                        <property name="SeqNumber" scope="default" type="STRING" value="2Req"/>
+                        <sequence key="Insert_Flow_Config"/>
+                        <!--                         <sequence key="SendToLogQueue"/> -->
+                    </sequence>
+                </target>
+            </clone>
+        </inSequence>
+        <outSequence>
+            <!--                         <sequence key="SendToLogQueue"/> -->
+            <clone>
+                <target>
+                    <sequence>
+                        <log level="custom">
+                            <property expression="$body/*" name="Is Recharge Proxy: Response received from IAM Server"/>
+                        </log>
+                        <sequence key="SoapToJson_Is_Recharge"/>
+                        <send/>
+                    </sequence>
+                </target>
+                <target>
+                    <sequence>
+                        <sequence key="SoapToJson_Is_Recharge"/>
+                        <property expression="json-eval($.Message.data)" name="data" scope="default" type="STRING"/>
+                        <property name="SeqNumber" scope="default" type="STRING" value="3Req"/>
+                        <sequence key="Insert_Flow_Config"/>
+                    </sequence>
+                </target>
+            </clone>
+        </outSequence>
+        <faultSequence>
+            <log level="custom">
+                <property name="FaultSequence" value="Is Recharge Proxy: Fault_Sequence"/>
+            </log>
+            <sequence key="FaultSequence_Res"/>
+            <!--               <property name="SET_ROLLBACK_ONLY" value="true" scope="axis2"/> -->
+            <respond/>
+        </faultSequence>
+    </target>
+</proxy>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/paiementFacturess" name="GAM_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <!--             <property expression="get-property('Basic-Auth-Key')" name="basicAuth" scope="default" type="OM"/> -->
+            <!-- <property expression="$ctx:basicAuth//*[local-name()='username']" name="username" scope="default" type="STRING"/> -->
+            <!-- <property expression="$ctx:basicAuth//*[local-name()='password']" name="password" scope="default" type="STRING"/> -->
+            <!-- <property expression="fn:concat($ctx:username,':',$ctx:password)" name="credentials" scope="default" type="STRING"/> -->
+            <!-- <property expression="fn:concat('Basic ', base64Encode($ctx:credentials))" name="Authorization" scope="transport" type="STRING" xmlns:ns="http://org.apache.synapse/xsd"/> -->
+            <!-- <property expression="$trp:username" name="username"/> -->
+            <property expression="json-eval($.Message.data)" name="data" scope="default" type="STRING"/>
+            <property expression="json-eval($.Message.data.field.MTI)" name="MTI" scope="default" type="STRING"/>
+            <property expression="json-eval($.Message.data.field.Rrn)" name="Rrn" scope="default" type="STRING"/>
+            <property expression="get-property('Rrn')" name="FlowTransactionID" scope="default" type="STRING"/>
+            <switch source="get-property('MTI')">
+                <case regex="1604">
+                    <property name="FlowID" scope="default" type="STRING" value="FL_PF_IAM_GI"/>
+                </case>
+                <case regex="1200">
+                    <property name="FlowID" scope="default" type="STRING" value="FL_PF_IAM_PI"/>
+                </case>
+                <case regex="3001">
+                    <property name="FlowID" scope="default" type="STRING" value="FL_Rech_IAM_IR"/>
+                </case>
+                <case regex="3002">
+                    <property name="FlowID" scope="default" type="STRING" value="FL_Rech_IAM_SR"/>
+                </case>
+                <default>
+                    <log level="custom">
+                        <property expression="get-property('MTI')" name="Receiving Unexpected MTI from client "/>
+                    </log>
+                    <!-- <loopback/> -->
+                </default>
+            </switch>
+            <log level="custom">
+                <property name="GAM API " value="New Request Received from GAM Server"/>
+                <property expression="get-property('FlowID')" name="FlowID"/>
+                <property expression="get-property('FlowTransactionID')" name="FlowTransactionID"/>
+            </log>
+            <!--               <sequence key="Insert_Flow_Config"/> -->
+            <clone>
+                <target>
+                    <sequence>
+                        <filter xpath="get-property('MTI')">
+                            <then>
+                                <sequence key="Switch_MTI"/>
+                            </then>
+                            <else>
+                                <property name="MTI" scope="default" type="STRING" value="{MTI:'1700'}"/>
+                                <enrich>
+                                    <source clone="true" property="MTI" type="property"/>
+                                    <target action="child" xpath="json-eval(Message.data.field)"/>
+                                </enrich>
+                                <respond/>
+                            </else>
+                        </filter>
+                    </sequence>
+                </target>
+                <target>
+                    <sequence>
+                        <property name="ServiceConsumer" scope="default" type="STRING" value="GAM_Paiement_Server"/>
+                        <property name="SeqNumber" scope="default" type="STRING" value="1Req"/>
+                        <sequence key="Insert_Flow_Config"/>
+                        <!--                         <sequence key="SendToLogQueue"/> -->
+                    </sequence>
+                </target>
+            </clone>
+        </inSequence>
+        <outSequence>
+            <!--                         <property name="FlowID" scope="default" type="STRING" value="FL_Rech_IAM_IR4"/> -->
+            <!--                         <sequence key="SendToLogQueue"/> -->
+            <clone>
+                <target>
+                    <sequence>
+                        <log level="custom">
+                            <property expression="json-eval($.Message.data)" name="GAM_API :Sending Request To GAM"/>
+                        </log>
+                        <send/>
+                    </sequence>
+                </target>
+                <target>
+                    <sequence>
+                        <property expression="json-eval($.Message.data)" name="data" scope="default" type="STRING"/>
+                        <property name="SeqNumber" scope="default" type="STRING" value="4Req"/>
+                        <sequence key="Insert_Flow_Config"/>
+                    </sequence>
+                </target>
+            </clone>
+        </outSequence>
+        <faultSequence>
+            <property name="HTTP_SC" scope="axis2" type="STRING" value="200"/>
+            <send/>
+        </faultSequence>
+    </resource>
+</api>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SoapToJson_Is_Recharge" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <datamapper config="gov:datamapper/SoapToJson_Is_Recharge_Datamapper.dmc" inputSchema="gov:datamapper/SoapToJson_Is_Recharge_Datamapper_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/SoapToJson_Is_Recharge_Datamapper_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/SoapToJson_Is_Recharge_Datamapper_xsltStyleSheet.xml"/>
+    <log level="custom">
+        <property name="Is Recharge Proxy" value="Transformation SoapToJson successfully"/>
+    </log>
+</sequence>

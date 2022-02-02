@@ -1,0 +1,39 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+var SPLIT_14_0 = '';
+
+SPLIT_14_0 = inputroot.ISOMessage.data.field.field102.split(' ');
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures =  {};
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq =  {};
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.phoneNumber = SPLIT_14_0[0];
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.transmissionDate = inputroot.ISOMessage.data.field.field7;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.stan = inputroot.ISOMessage.data.field.field11;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.transactionDate = inputroot.ISOMessage.data.field.field56;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.functionCode = inputroot.ISOMessage.data.field.field24;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.acquirerId = inputroot.ISOMessage.data.field.field32;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.rrn = inputroot.ISOMessage.data.field.field37;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.fidelioCode = inputroot.ISOMessage.data.field.field39;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.billType = SPLIT_14_0[1];
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.canal = inputroot.ISOMessage.data.field.field94;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.transactionAmount = inputroot.ISOMessage.data.field.field4;
+outputsoapenv_Envelope.soapenv_Body.ser_payFactures.dataReq.invoicesReference = inputroot.ISOMessage.data.field.field72;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

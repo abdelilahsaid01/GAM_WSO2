@@ -1,0 +1,16 @@
+map_S_getFacturesResponse_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.ISOMessage =  {};
+outputroot.ISOMessage.data =  {};
+outputroot.ISOMessage.data.field =  {};
+outputroot.ISOMessage.data.field.field0 = inputns2_getFacturesResponse.return.authorisationNbr;
+outputroot.ISOMessage.data.field.field39 = inputns2_getFacturesResponse.return.field72Iso;
+return outputroot;
+};
+
+
+
+
+

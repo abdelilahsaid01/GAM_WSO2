@@ -1,0 +1,61 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "ns2:getinvoicesResponse",
+  "type" : "object",
+  "properties" : {
+    "return" : {
+      "id" : "http://wso2jsonschema.org/return",
+      "type" : "object",
+      "properties" : {
+        "AuthorisationNbr" : {
+          "id" : "http://wso2jsonschema.org/return/authorisationNbr",
+          "type" : "string"
+        },
+        "FieldIso72" : {
+          "id" : "http://wso2jsonschema.org/return/fieldIso72",
+          "type" : "string"
+        },
+        "RqUID" : {
+          "id" : "http://wso2jsonschema.org/return/rqUID",
+          "type" : "string"
+        },
+        "ResultId" : {
+          "id" : "http://wso2jsonschema.org/return/resultId",
+          "type" : "string"
+        },
+        "ErrorCode" : {
+          "id" : "http://wso2jsonschema.org/return/errorCode",
+          "type" : "string"
+        },
+        "ErrorDesc" : {
+          "id" : "http://wso2jsonschema.org/return/errorDesc",
+          "type" : "string"
+        },
+        "KeyValues" : {
+          "id" : "http://wso2jsonschema.org/return/KeyValue",
+          "type" : "object",
+          "properties" : {
+            "Data" : {
+              "id" : "http://wso2jsonschema.org/return/KeyValue/data",
+              "type" : "string"
+            },
+            "Key" : {
+              "id" : "http://wso2jsonschema.org/return/KeyValue/key",
+              "type" : "string"
+            },
+            "Type" : {
+              "id" : "http://wso2jsonschema.org/return/KeyValue/type",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "ns2",
+    "url" : "http://v1.ws.provider.acp.com/"
+  } ]
+}

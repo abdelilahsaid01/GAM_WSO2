@@ -1,0 +1,150 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Factures" : {
+      "id" : "http://wso2jsonschema.org/getFactures",
+      "type" : "object",
+      "properties" : {
+        "data" : {
+          "id" : "http://wso2jsonschema.org/getFactures/data",
+          "type" : "object",
+          "properties" : {
+            "field" : {
+              "id" : "http://wso2jsonschema.org/getFactures/data/field",
+              "type" : "object",
+              "properties" : {
+                "MTI" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/MTI",
+                  "type" : "string"
+                },
+                "TransactionAmount" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/transactionAmount",
+                  "type" : "string"
+                },
+                "OrgAuthorisationNbr" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/orgAuthorisationNbr",
+                  "type" : "string"
+                },
+                "InvoicesReference" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/invoicesReference",
+                  "type" : "string"
+                },
+                "TransactionCurrency" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/transactionCurrency",
+                  "type" : "string"
+                },
+                "FidelioCode" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/fidelioCode",
+                  "type" : "string"
+                },
+                "RevendorId" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/revendorId",
+                  "type" : "string",
+                  "nullable" : "true"
+                },
+                "TransmissionDate" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/TransmissionDate",
+                  "type" : "string"
+                },
+                "Stan" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/Stan",
+                  "type" : "string"
+                },
+                "FonctionCode" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/FonctionCode",
+                  "type" : "string"
+                },
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/Canal",
+                  "type" : "string"
+                },
+                "BillType" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/BillType",
+                  "type" : "string"
+                },
+                "TransactionDate" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/TransactionDate",
+                  "type" : "string"
+                },
+                "PhoneNumber" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/PhoneNumber",
+                  "type" : "string"
+                },
+                "AddUsrIdentif" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/UserIdentif",
+                  "type" : "object",
+                  "properties" : {
+                    "ProviderLogin" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderLogin",
+                      "type" : "string"
+                    },
+                    "ProviderPassword" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/UserIdentif/ProviderPassword",
+                      "type" : "string"
+                    },
+                    "Products" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/UserIdentif/Products",
+                      "type" : "string"
+                    },
+                    "UserId" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserId",
+                      "type" : "string"
+                    },
+                    "RequestDate" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/UserIdentif/RequestDate",
+                      "type" : "string",
+                      "nullable" : "true"
+                    },
+                    "UserLanguage" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/UserIdentif/UserLanguage",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "RqUID" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "Acceptor_bank_code" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "Canal_type" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "Terminal_id" : {
+                  "id" : "null/0",
+                  "type" : "string",
+                  "nullable" : "true"
+                },
+                "Outlet" : {
+                  "id" : "null/0",
+                  "type" : "string",
+                  "nullable" : "true"
+                },
+                "Location" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "Rrn" : {
+                  "id" : "null/0",
+                  "type" : "string"
+                },
+                "AcquirerId" : {
+                  "id" : "null/0",
+                  "type" : "string",
+                  "nullable" : "true"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

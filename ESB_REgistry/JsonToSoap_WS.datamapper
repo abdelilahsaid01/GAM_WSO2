@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="ISOMessage" schemaDataType="OBJECT" level="2">
+        <node name="data" schemaDataType="OBJECT" level="3">
+          <node name="field" schemaDataType="OBJECT" level="4">
+            <node name="field0" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field0"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="field7" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field7"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field11" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field11"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field24" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field24"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field32" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field32"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field37" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field37"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field39" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field39"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field56" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field56"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field94" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field94"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="field102" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field/field102"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@operators.0/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data/field"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{field0={id=http://wso2jsonschema.org/ISOMessage/data/field/field0, type=string}, field7={id=http://wso2jsonschema.org/ISOMessage/data/field/field7, type=string}, field11={id=http://wso2jsonschema.org/ISOMessage/data/field/field11, type=string}, field24={id=http://wso2jsonschema.org/ISOMessage/data/field/field24, type=string}, field32={id=http://wso2jsonschema.org/ISOMessage/data/field/field32, type=string}, field37={id=http://wso2jsonschema.org/ISOMessage/data/field/field37, type=string}, field39={id=http://wso2jsonschema.org/ISOMessage/data/field/field39, type=string}, field42={id=http://wso2jsonschema.org/ISOMessage/data/field/field42, type=string}, field48={id=http://wso2jsonschema.org/ISOMessage/data/field/field48, type=string}, field53={id=http://wso2jsonschema.org/ISOMessage/data/field/field53, type=string}, field56={id=http://wso2jsonschema.org/ISOMessage/data/field/field56, type=string}, field94={id=http://wso2jsonschema.org/ISOMessage/data/field/field94, type=string}, field102={id=http://wso2jsonschema.org/ISOMessage/data/field/field102, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/ISOMessage/data"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{field={id=http://wso2jsonschema.org/ISOMessage/data/field, type=object, properties={field0={id=http://wso2jsonschema.org/ISOMessage/data/field/field0, type=string}, field7={id=http://wso2jsonschema.org/ISOMessage/data/field/field7, type=string}, field11={id=http://wso2jsonschema.org/ISOMessage/data/field/field11, type=string}, field24={id=http://wso2jsonschema.org/ISOMessage/data/field/field24, type=string}, field32={id=http://wso2jsonschema.org/ISOMessage/data/field/field32, type=string}, field37={id=http://wso2jsonschema.org/ISOMessage/data/field/field37, type=string}, field39={id=http://wso2jsonschema.org/ISOMessage/data/field/field39, type=string}, field42={id=http://wso2jsonschema.org/ISOMessage/data/field/field42, type=string}, field48={id=http://wso2jsonschema.org/ISOMessage/data/field/field48, type=string}, field53={id=http://wso2jsonschema.org/ISOMessage/data/field/field53, type=string}, field56={id=http://wso2jsonschema.org/ISOMessage/data/field/field56, type=string}, field94={id=http://wso2jsonschema.org/ISOMessage/data/field/field94, type=string}, field102={id=http://wso2jsonschema.org/ISOMessage/data/field/field102, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/ISOMessage"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{data={id=http://wso2jsonschema.org/ISOMessage/data, type=object, properties={field={id=http://wso2jsonschema.org/ISOMessage/data/field, type=object, properties={field0={id=http://wso2jsonschema.org/ISOMessage/data/field/field0, type=string}, field7={id=http://wso2jsonschema.org/ISOMessage/data/field/field7, type=string}, field11={id=http://wso2jsonschema.org/ISOMessage/data/field/field11, type=string}, field24={id=http://wso2jsonschema.org/ISOMessage/data/field/field24, type=string}, field32={id=http://wso2jsonschema.org/ISOMessage/data/field/field32, type=string}, field37={id=http://wso2jsonschema.org/ISOMessage/data/field/field37, type=string}, field39={id=http://wso2jsonschema.org/ISOMessage/data/field/field39, type=string}, field42={id=http://wso2jsonschema.org/ISOMessage/data/field/field42, type=string}, field48={id=http://wso2jsonschema.org/ISOMessage/data/field/field48, type=string}, field53={id=http://wso2jsonschema.org/ISOMessage/data/field/field53, type=string}, field56={id=http://wso2jsonschema.org/ISOMessage/data/field/field56, type=string}, field94={id=http://wso2jsonschema.org/ISOMessage/data/field/field94, type=string}, field102={id=http://wso2jsonschema.org/ISOMessage/data/field/field102, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="NULL" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="ser:getFactures" schemaDataType="OBJECT" level="3">
+          <node name="dataReq" schemaDataType="OBJECT" level="4">
+            <node name="phoneNumber" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/phoneNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="transmissionDate" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transmissionDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="stan" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/stan"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="transactionDate" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transactionDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="functionCode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/functionCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="acquirerId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/acquirerId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="rrn" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/rrn"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="fidelioCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/fidelioCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="billType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/billType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="canal" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/canal"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{phoneNumber={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/phoneNumber, type=string}, transmissionDate={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transmissionDate, type=string}, stan={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/stan, type=string}, transactionDate={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transactionDate, type=string}, functionCode={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/functionCode, type=number}, acquirerId={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/acquirerId, type=string}, rrn={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/rrn, type=string}, fidelioCode={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/fidelioCode, type=string}, billType={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/billType, type=string}, canal={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/canal, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="namespaces" value="{prefix=ser, url=http://service/}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/ser:getFactures"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{dataReq={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq, type=object, properties={phoneNumber={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/phoneNumber, type=string}, transmissionDate={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transmissionDate, type=string}, stan={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/stan, type=string}, transactionDate={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transactionDate, type=string}, functionCode={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/functionCode, type=number}, acquirerId={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/acquirerId, type=string}, rrn={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/rrn, type=string}, fidelioCode={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/fidelioCode, type=string}, billType={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/billType, type=string}, canal={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/canal, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{ser:getFactures={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures, type=object, properties={dataReq={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq, type=object, properties={phoneNumber={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/phoneNumber, type=string}, transmissionDate={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transmissionDate, type=string}, stan={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/stan, type=string}, transactionDate={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/transactionDate, type=string}, functionCode={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/functionCode, type=number}, acquirerId={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/acquirerId, type=string}, rrn={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/rrn, type=string}, fidelioCode={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/fidelioCode, type=string}, billType={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/billType, type=string}, canal={id=http://wso2jsonschema.org/soapenv:Body/ser:getFactures/dataReq/canal, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=ser, url=http://service/}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+  <operators xsi:type="datamapper:Split" defaultInputConnectors="1" defaultOutputConnectors="2" outputSizeFixed="false" operatorType="SPLIT" delimiter=" ">
+    <basicContainer>
+      <leftContainer>
+        <leftConnectors>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.9/@outNode/@outgoingLink.0"/>
+        </leftConnectors>
+      </leftContainer>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+          </outNode>
+        </rightConnectors>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+</datamapper:DataMapperRoot>

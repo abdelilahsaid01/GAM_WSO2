@@ -1,0 +1,69 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Factures" : {
+      "id" : "http://wso2jsonschema.org/getFactures",
+      "type" : "object",
+      "properties" : {
+        "data" : {
+          "id" : "http://wso2jsonschema.org/getFactures/data",
+          "type" : "object",
+          "properties" : {
+            "field" : {
+              "id" : "http://wso2jsonschema.org/getFactures/data/field",
+              "type" : "object",
+              "properties" : {
+                "KeyValues" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/KeyValues",
+                  "type" : "object",
+                  "properties" : {
+                    "Key" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/KeyValues/Key",
+                      "type" : "string"
+                    },
+                    "Data" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/KeyValues/Data",
+                      "type" : "string"
+                    },
+                    "Type" : {
+                      "id" : "http://wso2jsonschema.org/getFactures/data/field/KeyValues/Type",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "RqUID" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/RqUID",
+                  "type" : "string"
+                },
+                "ResultId" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/ResultId",
+                  "type" : "string"
+                },
+                "ErrorCode" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/ErrorCode",
+                  "type" : "string"
+                },
+                "ErrorDesc" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/ErrorDesc",
+                  "type" : "string"
+                },
+                "AuthorisationNbr" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/AuthorisationNbr",
+                  "type" : "string"
+                },
+                "FieldIso72" : {
+                  "id" : "http://wso2jsonschema.org/getFactures/data/field/FieldIso72",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

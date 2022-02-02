@@ -1,0 +1,360 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "null"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "v1:sendrecharge" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge",
+          "type" : "object",
+          "properties" : {
+            "arg0" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0",
+              "type" : "object",
+              "properties" : {
+                "KeyValues" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/KeyValues",
+                  "type" : "object",
+                  "properties" : {
+                    "Key" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/KeyValues/Key",
+                      "type" : "string"
+                    },
+                    "Data" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/KeyValues/Data",
+                      "type" : "string"
+                    },
+                    "Type" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/KeyValues/Type",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "RqUID" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/rqUID",
+                  "type" : "string"
+                },
+                "AddUsrIdentif" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif",
+                  "type" : "object",
+                  "properties" : {
+                    "KeyValues" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/KeyValues",
+                      "type" : "object",
+                      "properties" : {
+                        "Key" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/KeyValues/Key",
+                          "type" : "string"
+                        },
+                        "Data" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/KeyValues/Data",
+                          "type" : "string"
+                        },
+                        "Type" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/KeyValues/Type",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "UserId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/userId",
+                      "type" : "string"
+                    },
+                    "RequestDate" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/requestDate",
+                      "type" : "string"
+                    },
+                    "UserLanguage" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/userLanguage",
+                      "type" : "string"
+                    },
+                    "FinancialInstitution" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/financialInstitution",
+                      "type" : "string"
+                    },
+                    "Products" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/products",
+                      "type" : "string"
+                    },
+                    "ProviderLogin" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/providerLogin",
+                      "type" : "string"
+                    },
+                    "ProviderPasswd" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/addUsrIdentif/providerPasswd",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "CustomerInformation" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation",
+                  "type" : "object",
+                  "properties" : {
+                    "KeyValues" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/KeyValues",
+                      "type" : "object",
+                      "properties" : {
+                        "Key" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/KeyValues/Key",
+                          "type" : "string"
+                        },
+                        "Data" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/KeyValues/Data",
+                          "type" : "string"
+                        },
+                        "Type" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/KeyValues/Type",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "CustomerId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/CustomerId",
+                      "type" : "string"
+                    },
+                    "OrgId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/OrgId",
+                      "type" : "string"
+                    },
+                    "OrgDepth" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/OrgDepth",
+                      "type" : "string"
+                    },
+                    "ContractId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/CustomerInformation/ContractId",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "AgentInformation" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation",
+                  "type" : "object",
+                  "properties" : {
+                    "KeyValues" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation/KeyValues",
+                      "type" : "object",
+                      "properties" : {
+                        "Key" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation/KeyValues/Key",
+                          "type" : "string"
+                        },
+                        "Data" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation/KeyValues/Data",
+                          "type" : "string"
+                        },
+                        "Type" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation/KeyValues/Type",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "OedInstitutionId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation/OedInstitutionId",
+                      "type" : "string"
+                    },
+                    "BranchId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation/BranchId",
+                      "type" : "string"
+                    },
+                    "AgentId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/AgentInformation/AgentId",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "MerchantInformation" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation",
+                  "type" : "object",
+                  "properties" : {
+                    "KeyValues" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation/KeyValues",
+                      "type" : "object",
+                      "properties" : {
+                        "Key" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation/KeyValues/Key",
+                          "type" : "string"
+                        },
+                        "Data" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation/KeyValues/Data",
+                          "type" : "string"
+                        },
+                        "Type" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation/KeyValues/Type",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "ChainId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation/ChainId",
+                      "type" : "string"
+                    },
+                    "MerchantId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation/MerchantId",
+                      "type" : "string"
+                    },
+                    "PosId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/MerchantInformation/PosId",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "PersonName" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName",
+                  "type" : "object",
+                  "properties" : {
+                    "KeyValues" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/KeyValues",
+                      "type" : "object",
+                      "properties" : {
+                        "Key" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/KeyValues/Key",
+                          "type" : "string"
+                        },
+                        "Data" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/KeyValues/Data",
+                          "type" : "string"
+                        },
+                        "Type" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/KeyValues/Type",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "LastName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/LastName",
+                      "type" : "string"
+                    },
+                    "lastName2" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/LastName2",
+                      "type" : "string"
+                    },
+                    "FirstName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/FirstName",
+                      "type" : "string"
+                    },
+                    "MiddleName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/MiddleName",
+                      "type" : "string"
+                    },
+                    "TitlePrefix" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/TitlePrefix",
+                      "type" : "string"
+                    },
+                    "NameSuffix" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/NameSuffix",
+                      "type" : "string"
+                    },
+                    "NickName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/NickName",
+                      "type" : "string"
+                    },
+                    "LegalName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/PersonName/LegalName",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "Phone_number_eme" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/phone_number_eme",
+                  "type" : "string"
+                },
+                "Phone_number_rec" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/phone_number_rec",
+                  "type" : "string"
+                },
+                "Fidelio_code" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/fidelio_code",
+                  "type" : "string"
+                },
+                "Recharge_amount" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/recharge_amount",
+                  "type" : "string"
+                },
+                "Transmission_date" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/transmission_date",
+                  "type" : "string"
+                },
+                "Stan" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/stan",
+                  "type" : "string"
+                },
+                "Transaction_date" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/transaction_date",
+                  "type" : "string"
+                },
+                "Rrn" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/rrn",
+                  "type" : "string"
+                },
+                "Expiration_Date" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/expiration_Date",
+                  "type" : "string"
+                },
+                "Card_Numbers" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/card_Numbers",
+                  "type" : "string"
+                },
+                "Bank_Name" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/bank_Name",
+                  "type" : "string"
+                },
+                "Code_pass" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/code_pass",
+                  "type" : "string"
+                },
+                "IP_Adresse" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/iP_Adresse",
+                  "type" : "string"
+                },
+                "Acquirer_Id" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/acquirer_Id",
+                  "type" : "string"
+                },
+                "Acceptor_bank_code" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/acceptor_bank_code",
+                  "type" : "string"
+                },
+                "Canal_type" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/canal_type",
+                  "type" : "string"
+                },
+                "Terminal_id" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/terminal_id",
+                  "type" : "string"
+                },
+                "Outlet" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/outlet",
+                  "type" : "string"
+                },
+                "Location" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/location",
+                  "type" : "string"
+                },
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:sendrecharge/arg0/canal",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "v1",
+    "url" : "http://v1.ws.provider.acp.com/"
+  } ]
+}
